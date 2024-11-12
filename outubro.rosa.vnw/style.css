@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  height: 15dvh;
+  background-color: #FF69B4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+    height: 30dvh;
+  }
+}
+header .Logo {
+  width: 20dvw;
+  display: flex;
+  align-items: center;
+}
+header .Logo img {
+  width: 6.5dvw;
+}
+header .Logo h1 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.7dvw;
+}
+
+nav {
+  width: 40dvw;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 1.5dvw;
+}
+nav ul a {
+  color: #ffffff;
+}
+
+.Linha_1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FFD9EC;
+  padding: 0.7dvw;
+}
+@media (max-width: 700px) {
+  .Linha_1 {
+    flex-direction: column;
+  }
+}
+.Linha_1 p {
+  width: 38.42dvw;
+  font-size: 1.3dvw;
+}
+.Linha_1 img {
+  width: 19.42vw;
+  height: 38.25vh;
+}
+@media (max-width: 700) {
+  .Linha_1 img {
+    width: 80%;
+    height: 20%;
+  }
+}
+
+.Linha_2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FF69B4;
+  padding: 0.7dvw;
+}
+@media (max-width: 700px) {
+  .Linha_2 {
+    flex-direction: column;
+  }
+}
+.Linha_2 p {
+  width: 38.42dvw;
+  font-size: 1.3dvw;
+  color: #ffffff;
+}
+.Linha_2 img {
+  width: 22.4vw;
+  height: 25.21vh;
+}
+@media (max-width: 700) {
+  .Linha_2 img {
+    width: auto;
+    height: auto;
+  }
+}
+
+main section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12.36dvh;
+  background-color: #FFD9EC;
+}
+@media (max-width: 1124px) {
+  main section {
+    flex-direction: column;
+  }
+}
+main section .caixa_1 {
+  display: flex;
+}
+@media (max-width: 700px) {
+  main section .caixa_1 {
+    flex-direction: column;
+  }
+}
+main section .caixa_2 {
+  display: flex;
+}
+@media (max-width: 700px) {
+  main section .caixa_2 {
+    flex-direction: column;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FF69B4;
+  color: #ffffff;
+}
+footer section {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
